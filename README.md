@@ -2,8 +2,7 @@
 
 <h2 align="center"><img align="center" src="https://github.com/AlexPauloVieira/NextLevelWeek3/blob/main/front-web/src/images/logo.svg"><h2>
 
- <h2 align="center">Principais Tecnologias: </h2>
- <h3 align="center">- React JS / - Express / - React Native / - SQLite </h3>
+ <h2 align="center">Principais Tecnologias: React JS / Express / React Native / SQLite </h2>
 
  <h2 align="center">Aplicação Web Desenvolvida durante a NLW </h2>
 
