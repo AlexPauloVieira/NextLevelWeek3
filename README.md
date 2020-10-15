@@ -1,15 +1,14 @@
-## Next Level Week 3 - Construção da Aplicação Happy! :child: :girl: :heavy_heart_exclamation:
+<h1 align="center">Next Level Week 3 - Construção da Aplicação Happy! :child: :girl: :heavy_heart_exclamation:</h1>
 
-<img src="https://github.com/AlexPauloVieira/NextLevelWeek3/blob/main/front-web/src/images/logo.svg">
+<img align="center" src="https://github.com/AlexPauloVieira/NextLevelWeek3/blob/main/front-web/src/images/logo.svg">
 
-## Principais Tecnologias:
+ <h1 align="center">Principais Tecnologias: </h1>
+ <h2 align="center">- React JS / - Express / - React Native / - SQLite </h2>
 
-- React JS / - Express / - React Native / - SQLite
+ <h1 align="center">Aplicação Web Desenvolvida durante a NLW </h1>
 
-### Aplicação Web Desenvolvida durante a NLW
+<img align="center" width="900" src="https://github.com/AlexPauloVieira/NextLevelWeek3/blob/main/happy.gif" />
 
-<img align="center" width="550" src="https://github.com/AlexPauloVieira/NextLevelWeek3/blob/main/happy.gif" />
-
-### Aplicação Mobile Desenvolvida durante a NLW
+ <h1 align="center">Aplicação Mobile Desenvolvida durante a NLW</h1>
 
 
