@@ -8,7 +8,7 @@
 
 ### Aplicação Web Desenvolvida durante a NLW
 
-<img align="center" width="200" src="https://github.com/AlexPauloVieira/NextLevelWeek3/blob/main/happy.gif" />
+<img align="center" width="400" src="https://github.com/AlexPauloVieira/NextLevelWeek3/blob/main/happy.gif" />
 
 ### Aplicação Mobile Desenvolvida durante a NLW
 
