@@ -11,4 +11,6 @@
 
  <h2 align="center">Aplicação Mobile Desenvolvida durante a NLW</h2>
 
+<h1 align="center" ><img width="700" src="https://github.com/AlexPauloVieira/NextLevelWeek3/blob/main/happymobile.gif" /></h1>
+
 
