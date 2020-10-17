@@ -71,9 +71,7 @@ export default function CreateOrphanage() {
 
     await api.post("orphanages", data);
 
-    alert("Cadastro Realizado com Sucesso");
-
-    history.push("/map");
+    history.push("/success");
   }
   return (
     <div id='page-create-orphanage'>
