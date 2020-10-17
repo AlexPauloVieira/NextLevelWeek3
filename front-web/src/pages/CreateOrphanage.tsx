@@ -19,6 +19,7 @@ export default function CreateOrphanage() {
   const [about, setAbout] = useState("");
   const [instructions, setInstructions] = useState("");
   const [opening_hours, setOpeningHours] = useState("");
+  const [whatsapp, setWhatsapp] = useState("");
   const [open_on_weekends, setOpenOnWeekends] = useState(true);
   const [images, setImages] = useState<File[]>([]);
   const [previewImages, setPreviewImages] = useState<string[]>([]);
@@ -57,6 +58,7 @@ export default function CreateOrphanage() {
 
     data.append("name", name);
     data.append("about", about);
+    data.append("whatsapp", whatsapp);
     data.append("latitude", String(latitude));
     data.append("longitude", String(longitude));
     data.append("instructions", instructions);
@@ -115,10 +117,19 @@ export default function CreateOrphanage() {
                 Sobre <span>Máximo de 300 caracteres</span>
               </label>
               <textarea
-                id='name'
+                id='about'
                 maxLength={300}
                 value={about}
                 onChange={(event) => setAbout(event.target.value)}
+              />
+            </div>
+
+            <div className='input-block'>
+              <label htmlFor='whats-app'>Número WhatsApp</label>
+              <input
+                id='whats-app'
+                value={whatsapp}
+                onChange={(event) => setWhatsapp(event.target.value)}
               />
             </div>
 
@@ -193,5 +204,3 @@ export default function CreateOrphanage() {
     </div>
   );
 }
-
-// return `https://a.tile.openstreetmap.org/${z}/${x}/${y}.png`;
