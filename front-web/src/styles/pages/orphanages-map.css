@@ -97,3 +97,53 @@
 .page-map .map-popup .leaflet-popup-tip-container {
   display: none;
 }
+
+@media (max-width: 760px) {
+  .page-map {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .page-map aside {
+    width: 100vw;
+    height: 30vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .logo {
+    width: 40px;
+  }
+
+  .page-map aside header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70vw;
+  }
+
+  .page-map aside h2 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0px;
+  }
+
+  .page-map aside p {
+    line-height: 20px;
+    margin: 12px 30px 0 0;
+  }
+
+  .page-map aside footer {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    margin-top: 50px;
+  }
+}
