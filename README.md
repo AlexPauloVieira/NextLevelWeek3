@@ -15,7 +15,7 @@
 
 <h2 align="center">Trilhando a Milha Extra </h2>
 
-<h1 align="center" ><img width="700" src="https://github.com/AlexPauloVieira/NextLevelWeek3/blob/main/happynew.gif" /></h1>
+<h1 align="center" ><img width="700" src="https://github.com/AlexPauloVieira/NextLevelWeek3/blob/main/happycustom.gif" /></h1>
 
 
 
