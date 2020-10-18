@@ -25,11 +25,11 @@ interface OrphanageDateRouteParams {
 export default function OrphanageData() {
   const [name, setName] = useState("");
   const [about, setAbout] = useState("");
+  const [whatsapp, setWhatsapp] = useState("");
   const [instructions, setInstructions] = useState("");
   const [opening_hours, setOpeningHours] = useState("");
   const [open_on_weekends, setOpenOnWeekends] = useState(true);
   const [images, setImages] = useState<string[]>([]);
-
   const navigation = useNavigation();
   const route = useRoute();
   const params = route.params as OrphanageDateRouteParams;
@@ -37,20 +37,11 @@ export default function OrphanageData() {
   async function handleCreateOrphanage() {
     const { latitude, longitude } = params.position;
 
-    console.log({
-      name,
-      latitude,
-      longitude,
-      about,
-      instructions,
-      opening_hours,
-      open_on_weekends,
-    });
-
     const data = new FormData();
 
     data.append("name", name);
     data.append("about", about);
+    data.append("whatsapp", whatsapp);
     data.append("latitude", String(latitude));
     data.append("longitude", String(longitude));
     data.append("instructions", instructions);
@@ -67,7 +58,7 @@ export default function OrphanageData() {
 
     await api.post("orphanages", data);
 
-    navigation.navigate("OrphanagesMap");
+    navigation.navigate("Success");
   }
 
   async function handleSelectImages() {
@@ -111,8 +102,12 @@ export default function OrphanageData() {
         onChangeText={setAbout}
       />
 
-      {/* <Text style={styles.label}>Whatsapp</Text>
-      <TextInput style={styles.input} /> */}
+      <Text style={styles.label}>Whatsapp</Text>
+      <TextInput
+        style={styles.input}
+        value={whatsapp}
+        onChangeText={setWhatsapp}
+      />
 
       <Text style={styles.label}>Fotos</Text>
 

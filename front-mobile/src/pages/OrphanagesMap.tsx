@@ -98,14 +98,13 @@ const styles = StyleSheet.create({
     height: Dimensions.get("window").height,
   },
   calloutContainer: {
-    width: 160,
+    width: "90%",
     height: 46,
     paddingHorizontal: 16,
     backgroundColor: "rgba(255, 255, 255, 0.8)",
     borderRadius: 16,
     justifyContent: "center",
     fontFamily: "Nunito_700Bold",
-
     elevation: 3,
   },
   calloutText: {

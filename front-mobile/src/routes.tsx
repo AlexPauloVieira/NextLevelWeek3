@@ -6,6 +6,7 @@ import OrphanagesMap from "./pages/OrphanagesMap";
 import OrphanageDetails from "./pages/OrphanageDetails";
 import SelectMapPosition from "./pages/CreateOrphanage/SelectMapPosition";
 import OrphanageData from "./pages/CreateOrphanage/OrphanageData";
+import Success from "./pages/CreateOrphanage/Success";
 import Header from "./components/Header";
 
 const { Navigator, Screen } = createStackNavigator();
@@ -44,6 +45,7 @@ const Routes = () => {
             header: () => <Header title='Informe os dados' />,
           }}
         />
+        <Screen name='Success' component={Success} />
       </Navigator>
     </NavigationContainer>
   );
